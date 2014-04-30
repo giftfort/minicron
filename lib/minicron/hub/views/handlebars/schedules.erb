@@ -288,6 +288,33 @@
           </div>
         </div>
       </div>
+      <div class="panel panel-default">
+        <a data-toggle="collapse" data-parent="#schedule-editor" href="#schedule-special">
+          <div class="panel-heading">
+            <h4 class="panel-title">Special</h4>
+          </div>
+        </a>
+        <div id="schedule-special" class="panel-collapse collapse">
+          <div class="panel-body">
+            <ul class="nav nav-tabs">
+              <li class="active"><a href="#special" data-toggle="tab">special</a></li>
+            </ul>
+
+            <div class="tab-content">
+              <div class="tab-pane active" id="special">
+                <div class="btn-group clearfix" data-toggle="buttons">
+                  <label class="btn btn-primary"><input type="radio" data-value="@reboot"/>On Startup</label>
+                  <label class="btn btn-primary"><input type="radio" data-value="@hourly"/>Every Hour</label>
+                  <label class="btn btn-primary"><input type="radio" data-value="@daily"/>Every Day</label>
+                  <label class="btn btn-primary"><input type="radio" data-value="@weekly"/>Every Week</label>
+                  <label class="btn btn-primary"><input type="radio" data-value="@monthly"/>Every Month</label>
+                  <label class="btn btn-primary"><input type="radio" data-value="@yearly"/>Every Year</label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div class="form-group">
